@@ -1,9 +1,10 @@
 *{
     margin: 0px;
     padding: 0px;
+    /* background-color: #000; */
 }
 .weather-box{
-    background-color: rgb(0, 0, 0);
+    background-color: #8ab9b1;
     margin: 100px auto 0!important;
     width: 400px;
     padding: 40px 35px;
@@ -12,7 +13,6 @@
 }
 .search input{
     height: 50px;
-    border: 1px solid ;
     outline: 0;
     padding: 10px 25px ;
     color: #000;
@@ -21,6 +21,7 @@
     flex: 1;
     font-size: 18px;
     margin-right: 16px;
+    border-width: 0px!important;
     
 }
 .search button{
@@ -33,4 +34,27 @@
 }
 .search img{
     width: 20px;
+}
+.weather img{
+    width: 170px;
+}
+.details{
+    padding: 40px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.details .col{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+}
+.col img{
+    width: 40px;
+    margin-right: 10px;
+}
+.humidity, .wind{
+    font-size: 28px;
+    margin-top: -6px;
 }
